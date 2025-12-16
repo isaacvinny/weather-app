@@ -63,8 +63,6 @@ The application is fully responsive and optimized for different screen sizes, en
 
 ---
 
----
-
 ## Future Improvements
 
 * Hourly and weekly weather forecasts
