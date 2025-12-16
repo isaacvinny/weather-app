@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-containter">
+        <h1>Vinnys' Weather <br> App</h1>
+        
+        <div class="search-box">
+            <input type="text" class="search-field">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather-details">
+            <img src="images/floating-clouds.png" alt="" class="weather-icon">
+            <p class="description"> </p>
+            <p class="weather-temp"></p>
+            <div class="city-nd-country">
+                <p class="city-name">  </p>
+                <p class="country-name"> </p>
+            </div>
+        </div>
+        <div class="weather-footer">
+            <div class="footer-image">
+                <img src="images/humidity.png" alt="">
+                <div>
+                    <p class="humidity"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="footer-image">
+                <img src="images/wind.png" alt="">
+                <div>
+                    <p class="wind"></p>
+                    <p>Wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+<script src="script.js"></script>
+</body>
+</html>
