@@ -44,7 +44,7 @@ The Weather Application allows users to search for cities and view current weath
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/isaacvinny/weather-app.git
    ```
 2. Navigate to the project folder:
 
